@@ -1,0 +1,89 @@
+
+#root {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.topOfHeader{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.headingcontainer{
+  display: flex;
+  flex-direction: column;
+ 
+  color: rgb(56, 231, 50);
+  margin-bottom:1rem;
+  
+
+}
+.navbutton{
+  color:black;
+  width:5%;
+}
+
+.searchbar{
+  background-color: rgb(139, 107, 107);
+  font-size: 2rem;
+  width:70%;
+  color: black;
+  border-radius: 8px;
+  margin-top:1rem;
+}
+.offerboard{
+  outline-style: dashed;
+  outline-color: blue;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: 4fr;
+
+}
+.offercardcontainer{
+  outline-style: dashed;
+  outline-color: red;
+  width:25%;
+
+}
+
+.textbox1{
+  outline-style: dotted;
+  outline-color:blue;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
